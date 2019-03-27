@@ -1,10 +1,10 @@
 {
-  "name": "ng-select2",
-  "version": "1.0.8",
+  "name": "@pluritech/ng-select2",
+  "version": "1.0.0",
   "description": "Angular 6 & 7 wrapper component of jQuery select2.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tealpartners/ng-select2/"
+    "url": "https://github.com/lucascco/ng-select2/tree/fix-value-array-number"
   },
   "keywords": [
     "select2",
@@ -14,7 +14,8 @@
   "author": "Muhammad Arsal Abdullah <muhammadarsal.mail@gmail.com>",
   "contributors": [
     "Muhammad Arsal Abdullah <muhammadarsal.mail@gmail.com>",
-    "Stijn Goethals <stijn@tealpartners.com>"
+    "Stijn Goethals <stijn@tealpartners.com>",
+    "Lucas Correa <lucasccorrea@gmail.com>"
   ],
   "license": "MIT",
   "peerDependencies": {
@@ -29,15 +30,15 @@
     "@types/select2": "^4.0.x",
     "select2": "^4.0.x"
   },
-  "main": "bundles/ng-select2.umd.js",
-  "module": "fesm5/ng-select2.js",
-  "es2015": "fesm2015/ng-select2.js",
-  "esm5": "esm5/ng-select2.js",
-  "esm2015": "esm2015/ng-select2.js",
-  "fesm5": "fesm5/ng-select2.js",
-  "fesm2015": "fesm2015/ng-select2.js",
-  "typings": "ng-select2.d.ts",
-  "metadata": "ng-select2.metadata.json",
+  "main": "bundles/pluritech-ng-select2.umd.js",
+  "module": "fesm5/pluritech-ng-select2.js",
+  "es2015": "fesm2015/pluritech-ng-select2.js",
+  "esm5": "esm5/pluritech-ng-select2.js",
+  "esm2015": "esm2015/pluritech-ng-select2.js",
+  "fesm5": "fesm5/pluritech-ng-select2.js",
+  "fesm2015": "fesm2015/pluritech-ng-select2.js",
+  "typings": "pluritech-ng-select2.d.ts",
+  "metadata": "pluritech-ng-select2.metadata.json",
   "sideEffects": false,
   "dependencies": {
     "tslib": "^1.9.0"

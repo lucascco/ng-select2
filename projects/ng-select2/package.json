@@ -1,10 +1,10 @@
 {
-  "name": "ng-select2",
-  "version": "1.0.8",
+  "name": "@pluritech/ng-select2",
+  "version": "1.0.0",
   "description": "Angular 6 & 7 wrapper component of jQuery select2.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tealpartners/ng-select2/"
+    "url": "https://github.com/lucascco/ng-select2/tree/fix-value-array-number"
   },
   "keywords": [
     "select2",
@@ -14,7 +14,8 @@
   "author": "Muhammad Arsal Abdullah <muhammadarsal.mail@gmail.com>",
   "contributors": [
     "Muhammad Arsal Abdullah <muhammadarsal.mail@gmail.com>",
-    "Stijn Goethals <stijn@tealpartners.com>"
+    "Stijn Goethals <stijn@tealpartners.com>",
+    "Lucas Correa <lucasccorrea@gmail.com>"
   ],
   "license": "MIT",
   "peerDependencies": {
