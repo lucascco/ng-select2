@@ -219,7 +219,7 @@ export class NgSelect2Component implements AfterViewInit, OnChanges, OnDestroy, 
     // this.zone.run(() => {
 
     if (Array.isArray(newValue)) {
-
+      newValue = newValue.map(val => String(val));
       for (const option of this.selector.nativeElement.options) {
         this.renderer.setElementProperty(option, 'selected', (newValue.indexOf(option.value) > -1));
       }
